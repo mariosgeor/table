@@ -1,0 +1,83 @@
+.best-odds {
+  background-color: rgb(165, 241, 165);
+}
+table,
+th,
+td {
+  padding: 2rem;
+}
+.table {
+  background-color: #fff5;
+  margin-block: 100px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 6px 12px #0005;
+  border-radius: 12px;
+}
+table {
+  background-color: #fffb;
+  margin: 25px;
+  border-radius: 8px;
+}
+tbody tr:nth-child(even) {
+  background-color: #0000000b;
+}
+.table-header {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff4;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+thead tr th {
+  text-align: start;
+}
+
+tr:hover {
+  cursor: pointer;
+}
+tbody tr td div {
+  padding-block: 10px;
+}
+table table {
+  width: 100%;
+  margin: 0;
+}
+
+.dropdown-table {
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+
+.dropdown-table.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  table,
+  th,
+  td {
+    padding: 5px;
+  }
+  tbody tr td div {
+    padding-block: 5px;
+  }
+  table {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 12px;
+  }
+  table,
+  th,
+  td {
+    padding: 3px;
+  }
+  tbody tr td div {
+    padding-block: 3px;
+  }
+}

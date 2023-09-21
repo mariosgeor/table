@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: url(./assets/soccer-field.jpg) center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

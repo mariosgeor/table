@@ -1,0 +1,17 @@
+.rotating-img-container {
+    animation: rotate 10s linear infinite;
+    width: fit-content;
+  }
+  .rotating-img-container img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
